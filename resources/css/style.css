@@ -1,7 +1,32 @@
 body {
   background-color: black;
+  color: white;
+  font-family: Helvetica;
+  font-size: 22px;
+  opacity: 0.9;
 }
 
-h2 {
-  color: yellow;
+.logo {
+    background-image: url("../images/img-tea-cozy-logo.png");
+    height: 10px;
+    width: 50px;
+}
+
+nav {
+    text-align: right;
+}
+
+/* Our Mission Background */
+.background.mission {
+    background-image: url("../images/img-mission-background.jpg");
+}
+
+/* Locations Background */
+.background.locations {
+    background-image: url("../images/img-locations-background.jpg");
+}
+
+/* Boxes under Locations */
+.box {
+    background-color: black;
 }
